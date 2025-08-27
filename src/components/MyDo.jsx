@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useState } from "react";
+import { Fragment } from "react";
 import { Typography } from "@mui/material";
 import BackBtn from "./BackBtn";
 import Footer from "./Footer";

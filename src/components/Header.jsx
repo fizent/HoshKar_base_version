@@ -8,7 +8,7 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import List from "@mui/material/List";
 import Divider from "@mui/material/Divider";
-import { act, useState } from "react";
+import { useState } from "react";
 
 // Icons
 import MenuIcon from "@mui/icons-material/Menu";

@@ -143,7 +143,7 @@ export default function HistoryUser() {
       <div className="container_box_history">
         {moments.length === 0 ? (
           <div className="container_text_align">
-            <Typography variant="h3">هنوز خاطره ای نداری</Typography>
+            <Typography variant="h3">{emphtyText}</Typography>
           </div>
         ) : (
           moments.map((moment) => (
