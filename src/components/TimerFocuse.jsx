@@ -5,7 +5,7 @@ import Footer from "./Footer";
 import BackBtn from "./BackBtn";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-import BoxTimer from "./BoxSTimer";
+import BoxTimer from "./BoxsTimer"; /// BoxStimer
 import Eye from "./Eye";
 import { Inform } from "./Store/Store";
 
