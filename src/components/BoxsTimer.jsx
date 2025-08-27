@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import Typography from "@mui/material/Typography";
 import { Inform } from "./Store/Store";
-export default function BoxTimer() {
+export default function BoxTimerB() {
     const GetHourTimer = Inform((state)=> state.GetHourTimer)
     const GetMinTimer = Inform((state)=> state.GetMinTimer)
     const GetSecondTimer = Inform((state)=> state.GetSecondTimer)
