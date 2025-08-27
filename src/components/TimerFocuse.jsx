@@ -5,10 +5,11 @@ import Footer from "./Footer";
 import BackBtn from "./BackBtn";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-// import BoxTimer from "./BoxSTimer";
+import BoxTimer from "./BoxsTimer";
+
 import Eye from "./Eye";
 import { Inform } from "./Store/Store";
-import BoxTimerB from "./BoxSTimer";
+
 export default function Timer() {
   const [seconds, setSeconds] = useState(0);
   const [minute, setMinute] = useState(0);
@@ -171,7 +172,7 @@ export default function Timer() {
               شروع تایمر
             </Button>
           </div>
-          <BoxTimerB />
+          <BoxTimer />
         </>
       )}
 
