@@ -6,7 +6,6 @@ import BackBtn from "./BackBtn";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import BoxTimer from "./BoxsTimer";
-
 import Eye from "./Eye";
 import { Inform } from "./Store/Store";
 

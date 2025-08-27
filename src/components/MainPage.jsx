@@ -47,8 +47,8 @@ export default function MainPage() {
         <div className="container_orginall_page">
             <Header></Header>
             <div className="container_text_page">
-                <Typography className="padding_text" variant="h1">تموم کن</Typography>
-                <Typography variant="subtitle">برنامه ای برای برنامه ریزی و تمرکز</Typography>
+                <Typography className="padding_text" variant="h1">هوشکار</Typography>
+                <Typography variant="subtitle">کار هات رو بنویس</Typography>
             </div>
             {/* <Timer></Timer> */}
 

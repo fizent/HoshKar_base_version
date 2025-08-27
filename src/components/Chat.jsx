@@ -54,6 +54,20 @@ export default function ChatDastyar() {
         <ten id="helper">سلام خوش امدید من راهنما هستم</ten>
         <br />
         در صورت چت اول پیام رو بفرستید کارها به صورت اتومات انجام میشود و اگر دکمه ای دیدید در اخر روی ان کلیک کنید و حالا کار تمومه!
+        <br />
+        در صورت انجام نشدن به اپ تحت وب بروید و دوباره یک پیام چت بدهید و به صورت اتوماتیک (puter.js) برای شما باز میشود ثبت نام کنید و کار حله
+        <br />
+        <div className="back_link">
+          <a
+            href="https://hosh-kar-base-version-sspc.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            id="link"
+          >
+             اپ تحت وب
+          </a>
+        </div>
+
       </div>
       {chatLog.map((c, i) => (
         <div
