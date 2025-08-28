@@ -938,9 +938,10 @@ a {
 }
 .back_link {
   background-color: rgb(0, 0, 73);
-  width: 90px;
-  padding: 10px;
   border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  margin-top: 10px;
 }
 #link {
   color: white;

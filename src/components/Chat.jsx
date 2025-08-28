@@ -55,17 +55,18 @@ export default function ChatDastyar() {
         <br />
         در صورت چت اول پیام رو بفرستید کارها به صورت اتومات انجام میشود و اگر دکمه ای دیدید در اخر روی ان کلیک کنید و حالا کار تمومه!
         <br />
-        در صورت انجام نشدن به اپ تحت وب بروید و دوباره یک پیام چت بدهید و به صورت اتوماتیک (puter.js) برای شما باز میشود ثبت نام کنید و کار حله
+        در صورت انجام نشدن به اپ تحت وب/سایت  بروید لینک زیر را در کروم کپی کنید و وارد نسخه وب شوید و دوباره یک پیام چت بدهید و به صورت اتوماتیک (puter.js) برای شما باز میشود ثبت نام کنید و کار حله
         <br />
         <div className="back_link">
-          <a
-            href="https://hosh-kar-base-version-sspc.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Button
             id="link"
+            onClick={()=> {
+              navigator.clipboard
+                .writeText("https://hosh-kar-base-version-sspc.vercel.app/")
+            }}
           >
-             اپ تحت وب
-          </a>
+            کپی لینک وب
+          </Button>
         </div>
 
       </div>
